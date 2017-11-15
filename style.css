@@ -5,6 +5,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'calibri', arial;
+  background-color: #f6f6f6;
 }
 #sections {
   width: 100%;
@@ -94,29 +95,12 @@ body {
 
 #typed {
   color: black;
-  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
 }
 .typed-cursor {
     color: black;
-    font-weight: bold;
+    font-size: 20px;
     opacity: 1;
     position: absolute;
-    -webkit-animation: blink 1s infinite;
-    -moz-animation: blink 1s infinite;
-    animation: blink 1s infinite;
-}
-@keyframes blink {
-    0% {opacity: 1;}
-    50% {opacity: 0;}
-    100% {opacity: 1;}
-}
-@-webkit-keyframes blink {
-    0% {opacity: 1;}
-    50% {opacity: 0;}
-    100% {opacity: 1;}
-}
-@-moz-keyframes blink {
-    0% {opacity: 1;}
-    50% {opacity: 0;}
-    100% {opacity: 1;}
 }
